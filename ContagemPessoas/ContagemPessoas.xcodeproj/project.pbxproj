@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD705F681E329CA80032DE8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD705F671E329CA80032DE8D /* AppDelegate.swift */; };
+		DD705F6A1E329CA80032DE8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD705F691E329CA80032DE8D /* ViewController.swift */; };
+		DD705F6D1E329CA80032DE8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD705F6B1E329CA80032DE8D /* Main.storyboard */; };
+		DD705F701E329CA80032DE8D /* ContagemPessoas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD705F6E1E329CA80032DE8D /* ContagemPessoas.xcdatamodeld */; };
+		DD705F721E329CA80032DE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD705F711E329CA80032DE8D /* Assets.xcassets */; };
+		DD705F751E329CA80032DE8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD705F731E329CA80032DE8D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD705F641E329CA70032DE8D /* ContagemPessoas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContagemPessoas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD705F671E329CA80032DE8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD705F691E329CA80032DE8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD705F6C1E329CA80032DE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD705F6F1E329CA80032DE8D /* ContagemPessoas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContagemPessoas.xcdatamodel; sourceTree = "<group>"; };
+		DD705F711E329CA80032DE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD705F741E329CA80032DE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD705F761E329CA80032DE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD705F611E329CA70032DE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD705F5B1E329CA70032DE8D = {
+			isa = PBXGroup;
+			children = (
+				DD705F661E329CA70032DE8D /* ContagemPessoas */,
+				DD705F651E329CA70032DE8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD705F651E329CA70032DE8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD705F641E329CA70032DE8D /* ContagemPessoas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD705F661E329CA70032DE8D /* ContagemPessoas */ = {
+			isa = PBXGroup;
+			children = (
+				DD705F671E329CA80032DE8D /* AppDelegate.swift */,
+				DD705F691E329CA80032DE8D /* ViewController.swift */,
+				DD705F6B1E329CA80032DE8D /* Main.storyboard */,
+				DD705F711E329CA80032DE8D /* Assets.xcassets */,
+				DD705F731E329CA80032DE8D /* LaunchScreen.storyboard */,
+				DD705F761E329CA80032DE8D /* Info.plist */,
+				DD705F6E1E329CA80032DE8D /* ContagemPessoas.xcdatamodeld */,
+			);
+			path = ContagemPessoas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD705F631E329CA70032DE8D /* ContagemPessoas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD705F791E329CA80032DE8D /* Build configuration list for PBXNativeTarget "ContagemPessoas" */;
+			buildPhases = (
+				DD705F601E329CA70032DE8D /* Sources */,
+				DD705F611E329CA70032DE8D /* Frameworks */,
+				DD705F621E329CA70032DE8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContagemPessoas;
+			productName = ContagemPessoas;
+			productReference = DD705F641E329CA70032DE8D /* ContagemPessoas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD705F5C1E329CA70032DE8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Matheus Amancio Seixeiro";
+				TargetAttributes = {
+					DD705F631E329CA70032DE8D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F2Q5YFHJHH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD705F5F1E329CA70032DE8D /* Build configuration list for PBXProject "ContagemPessoas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD705F5B1E329CA70032DE8D;
+			productRefGroup = DD705F651E329CA70032DE8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD705F631E329CA70032DE8D /* ContagemPessoas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD705F621E329CA70032DE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD705F751E329CA80032DE8D /* LaunchScreen.storyboard in Resources */,
+				DD705F721E329CA80032DE8D /* Assets.xcassets in Resources */,
+				DD705F6D1E329CA80032DE8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD705F601E329CA70032DE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD705F6A1E329CA80032DE8D /* ViewController.swift in Sources */,
+				DD705F681E329CA80032DE8D /* AppDelegate.swift in Sources */,
+				DD705F701E329CA80032DE8D /* ContagemPessoas.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD705F6B1E329CA80032DE8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD705F6C1E329CA80032DE8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD705F731E329CA80032DE8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD705F741E329CA80032DE8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD705F771E329CA80032DE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD705F781E329CA80032DE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD705F7A1E329CA80032DE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2Q5YFHJHH;
+				INFOPLIST_FILE = ContagemPessoas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Matheus-Amancio.ContagemPessoas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD705F7B1E329CA80032DE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2Q5YFHJHH;
+				INFOPLIST_FILE = ContagemPessoas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Matheus-Amancio.ContagemPessoas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD705F5F1E329CA70032DE8D /* Build configuration list for PBXProject "ContagemPessoas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD705F771E329CA80032DE8D /* Debug */,
+				DD705F781E329CA80032DE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD705F791E329CA80032DE8D /* Build configuration list for PBXNativeTarget "ContagemPessoas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD705F7A1E329CA80032DE8D /* Debug */,
+				DD705F7B1E329CA80032DE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD705F6E1E329CA80032DE8D /* ContagemPessoas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD705F6F1E329CA80032DE8D /* ContagemPessoas.xcdatamodel */,
+			);
+			currentVersion = DD705F6F1E329CA80032DE8D /* ContagemPessoas.xcdatamodel */;
+			path = ContagemPessoas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD705F5C1E329CA70032DE8D /* Project object */;
+}
