@@ -13,6 +13,7 @@
 		DD705F701E329CA80032DE8D /* ContagemPessoas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD705F6E1E329CA80032DE8D /* ContagemPessoas.xcdatamodeld */; };
 		DD705F721E329CA80032DE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD705F711E329CA80032DE8D /* Assets.xcassets */; };
 		DD705F751E329CA80032DE8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD705F731E329CA80032DE8D /* LaunchScreen.storyboard */; };
+		DD705F7D1E329D850032DE8D /* CountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD705F7C1E329D850032DE8D /* CountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DD705F711E329CA80032DE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD705F741E329CA80032DE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD705F761E329CA80032DE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD705F7C1E329D850032DE8D /* CountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountViewController.swift; path = ../CountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				DD705F671E329CA80032DE8D /* AppDelegate.swift */,
+				DD705F7C1E329D850032DE8D /* CountViewController.swift */,
 				DD705F691E329CA80032DE8D /* ViewController.swift */,
 				DD705F6B1E329CA80032DE8D /* Main.storyboard */,
 				DD705F711E329CA80032DE8D /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD705F7D1E329D850032DE8D /* CountViewController.swift in Sources */,
 				DD705F6A1E329CA80032DE8D /* ViewController.swift in Sources */,
 				DD705F681E329CA80032DE8D /* AppDelegate.swift in Sources */,
 				DD705F701E329CA80032DE8D /* ContagemPessoas.xcdatamodeld in Sources */,
